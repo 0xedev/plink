@@ -10,7 +10,7 @@ const config = {
   kit: {
     // Static site generation (SSG) is used: https://kit.svelte.dev/docs/adapter-static
     adapter: adapter({
-      fallback: 'index.html', // Add this line to handle client-side routing
+      fallback: 'app.html', // Add this line to handle client-side routing
     }),
   },
 };
